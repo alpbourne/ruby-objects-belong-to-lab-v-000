@@ -3,7 +3,7 @@ class Post
   attr_accessor :title, :author
 
   def author
-    @author = Author.name
+    @author = Author.new
   end
 
 end
