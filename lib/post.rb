@@ -4,3 +4,6 @@ class Post
 
   def author
     @author = Author.name
+  end
+
+end
